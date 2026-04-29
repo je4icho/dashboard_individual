@@ -15,7 +15,7 @@ El dashboard integra:
 - Gráficos estadísticos con **Altair**  
 - KPIs y filtros dinámicos  
 - Un ranking territorial configurable  
-- Reflexiones analíticas orientadas a negocio  
+- Una reflexión sobre la interactividad aplicada  
 
 El despliegue final se realiza en **Streamlit Cloud**, permitiendo explorar el comportamiento espacial de la demanda y su relación con el valor económico generado por comuna.
 
@@ -34,6 +34,7 @@ El despliegue final se realiza en **Streamlit Cloud**, permitiendo explorar el c
 │
 ├── app.py                         # Archivo principal del dashboard (Streamlit)
 ├── requirements.txt               # Dependencias necesarias para el despliegue
+├── runtime.txt                    # Versión de Python utilizada (python-3.11)
 ├── dataset_tarea_ind.xlsx         # Dataset base con ventas y pedidos
 ├── comunas_metropolitana-1.geojson# Polígonos territoriales de la RM
 │
@@ -65,7 +66,7 @@ El despliegue final se realiza en **Streamlit Cloud**, permitiendo explorar el c
 ### 🔹 4. Gráficos complementarios
 - **Top 10 comunas por venta total** (Altair)  
 - **Scatter** pedidos vs venta total  
-- Reflexión analítica integrada  
+- Reflexión sobre la interactividad del dashboard  
 
 ---
 
@@ -106,3 +107,10 @@ Esta interactividad mejora la exploración geoespacial al permitir que el usuari
 ```bash
 git clone https://github.com/je4icho/dashboard_individual
 cd dashboard_individual
+
+2. Instalar dependencias
+pip install -r requirements.txt
+
+3. Ejecutar dashboard
+streamlit run app.py
+
