@@ -22,11 +22,13 @@ st.set_page_config(
     layout="wide"
 )
 
-st.title("Dashboard territorial: volumen vs valor económico")
+st.title("Análisis territorial de valor económico y volumen de pedidos")
 st.markdown(
     """
-    Este dashboard permite explorar la distribución territorial del valor económico y del volumen de pedidos
-    en la Región Metropolitana, integrando un mapa interactivo y un ranking por comuna.
+    Este dashboard permite explorar la distribución territorial del valor económico y 
+    del volumen de pedidos en la Región Metropolitana, integrando un mapa interactivo, 
+    un ranking por comuna, KPIs generales y visualizaciones complementarias como un 
+    Top 10 y un scatter de pedidos versus venta total.
     """
 )
 
@@ -291,9 +293,10 @@ st.subheader("Reflexión sobre la interactividad")
 
 st.markdown(
     f"""
-    La interactividad del dashboard permite explorar cómo se distribuye **{metrica_label.lower()}**
-    entre las distintas comunas de la Región Metropolitana, combinando una vista territorial
-    (mapa) con una vista comparativa (ranking), además de análisis complementarios como el Top 10
-    y la relación entre pedidos y valor económico.
+    La interactividad del dashboard permite explorar cómo varían los indicadores territoriales 
+    entre las comunas de la Región Metropolitana mediante filtros que actualizan en tiempo real 
+    el mapa y el ranking. Esto mejora la exploración de datos geoespaciales al permitir identificar 
+    patrones territoriales y comparar zonas específicas de manera dinámica. Las visualizaciones complementarias, 
+    como el Top 10 y el scatter, entregan contexto global y enriquecen la interpretación sin depender de los filtros.
     """
 )
