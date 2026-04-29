@@ -24,7 +24,7 @@ El despliegue final se realiza en **Streamlit Cloud**, permitiendo explorar el c
 ## 🚀 Demo en Streamlit
 
 👉 *Enlace al dashboard:*  
-*(Agrega aquí el link una vez desplegado)*
+https://dashboardindividual-xrmwzqkjxkl8m2l8tvyydp.streamlit.app/
 
 ---
 
