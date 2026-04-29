@@ -34,7 +34,6 @@ https://dashboardindividual-xrmwzqkjxkl8m2l8tvyydp.streamlit.app/
 │
 ├── app.py                         # Archivo principal del dashboard (Streamlit)
 ├── requirements.txt               # Dependencias necesarias para el despliegue
-├── runtime.txt                    # Versión de Python utilizada (python-3.11)
 ├── dataset_tarea_ind.xlsx         # Dataset base con ventas y pedidos
 ├── comunas_metropolitana-1.geojson# Polígonos territoriales de la RM
 │
